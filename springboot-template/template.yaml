@@ -18,7 +18,6 @@ spec:
         - component_id
         - owner
         - java_package_name
-        - group_id
       properties:
         component_id:
           title: Name
@@ -33,10 +32,6 @@ spec:
           title: Description
           type: string
           description: Help others understand what this website is for.
-        group_id:
-         title: Name
-         type: string
-         description: name for groupID in pom
         owner:
           title: Owner
           type: string
